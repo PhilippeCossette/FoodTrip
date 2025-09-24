@@ -1,0 +1,105 @@
+.btn-lm {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 0;
+  border-radius: 1.625rem;
+  background-color: transparent;
+  /* width: 12rem; */
+  height: auto;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 1.625rem;
+}
+
+.btn-text {
+  font-family: var(--primary-font);
+  font-weight: 900;
+  text-transform: uppercase;
+  flex-grow: 1;
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  z-index: 2;
+  margin-right: 0.5em;
+}
+
+.circle::after {
+  content: "";
+  width: inherit;
+  height: 100%;
+  position: absolute;
+  background-color: var(--color-primary);
+  border-radius: inherit;
+  inset: 0;
+  z-index: 2;
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+}
+
+.btn-lm:hover .circle::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: var(--color-primary);
+  border-radius: inherit;
+  inset: 0;
+  z-index: 2;
+}
+
+.arrow::after {
+  content: "\f054";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: white;
+  position: absolute;
+  top: 52%;
+  left: 0.7em;
+  transform: translateY(-50%);
+  z-index: 9;
+
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+}
+
+.btn-lm:hover .btn-text {
+  color: white;
+}
+
+.btn-lm:hover .arrow::after {
+  content: "\f054";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: white;
+  position: absolute;
+  top: 52%;
+  left: 1.2em;
+  transform: translateY(-50%);
+  z-index: 9;
+}
+
+.arrow::before {
+  content: "";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 2rem;
+  width: 0.7em;
+  height: 0.12em;
+  border-radius: 1em;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 0.6em;
+  transform: translateY(-50%);
+  z-index: 9;
+  opacity: 0;
+
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+}
+
+.btn-lm:hover .arrow::before {
+  opacity: 1;
+}

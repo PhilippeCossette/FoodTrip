@@ -1,0 +1,66 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  line-height: 1.65;
+  color: #111;
+}
+
+p {
+  font-size: var(--text-size-md);
+  margin-bottom: var(--space-s);
+}
+
+/* Generic heading styles */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  line-height: 1.15;
+  margin-bottom: var(--space-m);
+  margin-top: 0;
+}
+
+/* Headings with Poppins */
+h1,
+.text-size-h1 {
+  font-family: "Fact", sans-serif;
+  font-weight: 700;
+  font-size: var(--text-size-5xl); /* biggest */
+}
+
+h2,
+.text-size-h2 {
+  font-size: var(--text-size-4xl);
+}
+
+h3,
+.text-size-h3 {
+  font-size: var(--text-size-3xl);
+}
+
+h4,
+.text-size-h4 {
+  font-size: var(--text-size-2xl);
+}
+
+h5,
+.text-size-h5 {
+  font-size: var(--text-size-xl);
+}
+
+/* Small / caption text */
+.text-caption {
+  font-size: var(--text-size-sm);
+}
+
+small,
+.text-small {
+  font-size: var(--text-size-xs);
+}
