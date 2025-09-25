@@ -12,7 +12,8 @@
 @import url(./composant/btn.css);
 @import url(./composant/btn-learn-more.css);
 @import url(./composant/card.css);
-@import url(./composant/featured-card.css);
+@import url(./composant/featured-post.css);
+@import url(./composant/link-button.css);
 
 /* Grid */
 @import url(./composant/grid.css);

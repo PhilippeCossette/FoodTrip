@@ -1,0 +1,9 @@
+.link-button {
+    all: unset;
+    cursor: pointer;
+    color: var(--color-text-light);
+    font-weight: bold;
+    line-height: 1.2;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}

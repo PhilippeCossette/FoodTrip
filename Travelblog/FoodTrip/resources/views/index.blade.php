@@ -33,61 +33,61 @@
         </article>
     </div>
 </section>
-<section class="my-5 mx-1200">
-    <div class="container-fluid maxHeight">
-        <div class="row g-3">
 
-            <!-- Big post on the left -->
-            <div class="col-12 col-lg-8">
-                <div class="featured-card h-100">
-                    <img src="{{ asset('uploads/food-category.jpg') }}" class="featured-card-img-bg" alt="Big Post">
-                    <div class="featured-card-body hover-slide-up">
-                        <h1 class="featured-card-title">A Taste of Morocco</h1>
-                        <p class="featured-card-date">September 24 2025</p>
-                        <div class="featured-card-content">
-                            <p class="featured-card-text">Morocco’s cuisine is a feast of colors, aromas, and tradition. From slow-cooked lamb tagines and fluffy couscous to sweet mint tea, every dish tells a story of family and culture. Street food like msemen and seafood from the coast add even more variety to this rich culinary heritage.</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
+<section class="mx-1200 section-spacing">
+    <div class="featured-post__grid">
+        <!-- Card 1 -->
+        <div class="featured-post__card">
+            <picture class="featured-post__card-image__container">
+                <img src="{{ asset('uploads/ramen-post.jpg') }}" alt="Japanese Ramen" class="featured-post__card-image">
+            </picture>
+            <div class="featured-post__card-body">
+                <div class="featured-post__card-header">
+                    <h3 class="featured-post__card-title">Exploring the Culinary Delights of Japan: A Food Lover's Journey</h3>
+                    <span class="category">Japanese Cuisine</span>
+                </div>
+                <div class="featured-post__card-content">
+                    <p class="featured-post__card-date">12 Dec 2023</p>
+                    <p class="featured-post__card-text">From sushi to ramen, tempura to takoyaki, Japan offers a diverse array of culinary delights that will tantalize your taste buds.</p>
+                    <button class="link-button">Learn More <i class="ri-arrow-right-line"></i></button>
                 </div>
             </div>
+        </div>
 
-            <!-- Three smaller posts on the right -->
-            <div class="col-12 col-lg-4 d-flex flex-column gap-3">
-                <!-- Small Post 1 -->
-                <div class="featured-card">
-                    <picture>
-                        <img src="{{ asset('uploads/food-category.jpg') }}" class="featured-card-img-bg" alt="Small Post 1">
-                    </picture>
-                    <div class="featured-card-body">
-                        <p class="featured-card-title">Small Post 1</p>
-                        <p class="featured-card-date">September 24 2025</p>
-                        <p class="featured-card-text">Short summary for small post 1.</p>
-                        <a href="#" class="btn btn-sm btn-primary">Read More</a>
-                    </div>
+        <!-- Card 2 -->
+        <div class="featured-post__card">
+            <picture class="featured-post__card-image__container">
+                <img src="{{ asset('uploads/tapas-post.jpg') }}" alt="Spanish Tapas" class="featured-post__card-image">
+            </picture>
+            <div class="featured-post__card-body">
+                <div class="featured-post__card-header">
+                    <h3 class="featured-post__card-title small-post">The Vibrant Flavors of Spain: Tapas and More</h3>
+                    <span class="category">Spanish Cuisine</span>
                 </div>
-
-                <!-- Small Post 2 -->
-                <div class="featured-card">
-                    <img src="https://via.placeholder.com/400x190" class="featured-card-img-bg" alt="Small Post 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Small Post 2</h5>
-                        <p class="card-text">Short summary for small post 2.</p>
-                        <a href="#" class="btn btn-sm btn-primary">Read More</a>
-                    </div>
+                <div class="featured-post__card-content small-post">
+                    <p class="featured-post__card-date">20 Jan 2024</p>
+                    <p class="featured-post__card-text small-post">Discover how tapas bring people together in Spain — small plates full of flavor, meant to be shared with family and friends.</p>
+                    <button class="link-button">Learn More <i class="ri-arrow-right-line"></i></button>
                 </div>
-                <!-- Small Post 3 -->
-                <div class="featured-card">
-                    <img src="https://via.placeholder.com/400x190" class="featured-card-img-bg" alt="Small Post 2">
-                    <div class="card-body">
-                        <h5 class="card-title">Small Post 2</h5>
-                        <p class="card-text">Short summary for small post 2.</p>
-                        <a href="#" class="btn btn-sm btn-primary">Read More</a>
-                    </div>
-                </div>
-
             </div>
+        </div>
 
+        <!-- Card 3 -->
+        <div class="featured-post__card">
+            <picture class="featured-post__card-image__container">
+                <img src="{{ asset('uploads/pizza-post.jpg') }}" alt="Italian Pizza" class="featured-post__card-image">
+            </picture>
+            <div class="featured-post__card-body">
+                <div class="featured-post__card-header">
+                    <h3 class="featured-post__card-title small-post">Italy’s Classic Pizza: A Slice of Tradition</h3>
+                    <span class="category">Italian Cuisine</span>
+                </div>
+                <div class="featured-post__card-content small-post">
+                    <p class="featured-post__card-date">05 Feb 2024</p>
+                    <p class="featured-post__card-text small-post">From Naples to the world, learn how authentic Italian pizza is crafted with fresh ingredients and centuries of tradition.</p>
+                    <button class="link-button">Learn More <i class="ri-arrow-right-line"></i></button>
+                </div>
+            </div>
         </div>
     </div>
 </section>
