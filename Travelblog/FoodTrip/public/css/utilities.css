@@ -1,15 +1,14 @@
 .mx-1200 {
-  max-width: 1200px;
-  margin-inline: auto;
-  padding-inline: var(--space-l);
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: var(--space-l);
 }
 
 .section-spacing {
-  padding-block: var(--space-l);
+    padding-block: var(--space-l);
 }
 
-
-.hover-slide-up {
-  
+.maxHeigth {
+    height: 100px;
+    overflow: hidden;
 }
-

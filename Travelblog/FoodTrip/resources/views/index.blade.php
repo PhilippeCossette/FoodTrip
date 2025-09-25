@@ -34,7 +34,7 @@
     </div>
 </section>
 <section class="my-5 mx-1200">
-    <div class="container-fluid">
+    <div class="container-fluid maxHeight">
         <div class="row g-3">
 
             <!-- Big post on the left -->
